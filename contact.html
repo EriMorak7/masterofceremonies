@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Master & Ceremony</title>
+  <meta name="description" content="Get in touch to book your Master of Ceremonies for weddings, corporate events, and private celebrations worldwide.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Page Transition -->
+  <div class="page-transition"></div>
+
+  <!-- Skip Link -->
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">Master <span>&</span> Ceremony</a>
+      <nav class="header__nav" id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main">
+
+    <!-- Hero Section -->
+    <section class="hero hero--short">
+      <div class="hero__bg" style="background: linear-gradient(135deg, #fdfaf5 0%, #f3e9d7 50%, #fdfaf5 100%);"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content reveal">
+        <p class="subheading">LET'S TALK</p>
+        <h1 class="heading-italic">Contact</h1>
+        <p>Ready to make your event extraordinary? Let's start the conversation.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+      <div class="container">
+        <div class="grid-2">
+          
+          <!-- Contact Form -->
+          <div class="reveal-left">
+            <p class="subheading">SEND A MESSAGE</p>
+            <h3>Tell Me About Your Event</h3>
+            <span class="gold-line"></span>
+            
+            <form id="contact-form" style="margin-top: var(--space-lg);">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" class="form-control" placeholder="Your full name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" class="form-control" placeholder="your@email.com" required>
+                </div>
+              </div>
+              
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="event-type">Event Type</label>
+                  <select id="event-type" class="form-control">
+                    <option value="">Select event type</option>
+                    <option value="wedding">Wedding</option>
+                    <option value="corporate">Corporate Event</option>
+                    <option value="private">Private Celebration</option>
+                    <option value="gala">Gala / Awards</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="event-date">Event Date</label>
+                  <input type="date" id="event-date" class="form-control">
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" class="form-control" placeholder="Tell me about your vision for the event..." rows="5" required></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn--filled" style="width: 100%; margin-top: var(--space-sm);">Send Message</button>
+            </form>
+          </div>
+          
+          <!-- Contact Info -->
+          <div class="reveal-right" style="padding-left: clamp(0px, 4vw, 4rem);">
+            <p class="subheading">GET IN TOUCH</p>
+            <h3>Contact Information</h3>
+            <span class="gold-line"></span>
+            
+            <div class="contact-info" style="margin-top: var(--space-lg);">
+              <div class="contact-info__item">
+                <div class="contact-info__icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                </div>
+                <div class="contact-info__text">
+                  <h4>Email</h4>
+                  <a href="mailto:hello@masterandceremony.com">hello@masterandceremony.com</a>
+                </div>
+              </div>
+              
+              <div class="contact-info__item">
+                <div class="contact-info__icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div class="contact-info__text">
+                  <h4>Phone</h4>
+                  <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                </div>
+              </div>
+              
+              <div class="contact-info__item">
+                <div class="contact-info__icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div class="contact-info__text">
+                  <h4>Based In</h4>
+                  <p>Available Worldwide</p>
+                </div>
+              </div>
+            </div>
+            
+            <div style="margin-top: var(--space-xl);">
+              <p class="subheading">FOLLOW ALONG</p>
+              <div class="social-links">
+                <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg></a>
+                <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                <a href="#" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.43z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Map / Availability -->
+    <section class="section section--alt text-center">
+      <div class="container container--narrow reveal">
+        <p class="subheading">AVAILABILITY</p>
+        <h2>Available Worldwide</h2>
+        <span class="gold-line gold-line--center"></span>
+        <p class="body-large">
+          Based in the heart of the city, but my passion for celebration knows no borders. I regularly host events across the country and internationally. Whether your venue is local or a destination dream, I'm ready to be there.
+        </p>
+        
+        <div class="section-divider" style="margin-top: var(--space-xl);">
+          <div class="section-divider__line"></div>
+          <div class="section-divider__diamond"></div>
+          <div class="section-divider__line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Simple CTA -->
+    <section class="section text-center">
+      <div class="container reveal">
+        <p class="subheading">PREFER A QUICK CHAT?</p>
+        <h2>Let's Schedule a Call</h2>
+        <p style="color: var(--text-secondary); margin-bottom: var(--space-lg);">Sometimes a conversation is the best way to start. Book a free 15-minute consultation to discuss your event.</p>
+        <a href="#contact-form" class="btn btn--filled">Schedule a Call</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="index.html" class="header__logo">Master <span>&</span> Ceremony</a>
+          <p>Elevating celebrations with elegance, energy, and unforgettable moments. Your event deserves nothing less than extraordinary.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg></a>
+            <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.43z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Weddings</a></li>
+            <li><a href="services.html">Corporate</a></li>
+            <li><a href="services.html">Private Events</a></li>
+            <li><a href="services.html">Galas</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="contact.html">Get in Touch</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 Master & Ceremony. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.43z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
